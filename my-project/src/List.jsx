@@ -1,7 +1,7 @@
 export function List({ items, toggleChecked }) {
   return (
     <div className="flex w-full justify-center items-center">
-      <ul className="flex flex-wrap w-11/12 justify-center items-center mt-6 gap-2">
+      <ul className="flex flex-wrap w-11/12 justify-center items-center mt-2 gap-2">
         {Object.entries(items).map(([key, value]) => {
           let checked = !value.checked
             ? "bg-slate-200"
